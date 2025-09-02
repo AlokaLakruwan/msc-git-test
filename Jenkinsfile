@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Pull code from Git repository
                 git branch: 'main',
-                    url: 'https://your-repo-url.git'
+                    url: 'https://github.com/AlokaLakruwan/msc-git-test.git'
             }
         }
 
