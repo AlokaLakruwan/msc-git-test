@@ -21,7 +21,7 @@ pipeline {
         stage('Run Docker Container') {
             steps {
                 script {
-                    bat 'docker run --rm java-test'
+                    sh 'docker run --rm java-test'
                 }
             }
         }
